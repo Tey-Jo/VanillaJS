@@ -10,3 +10,22 @@ body {
 .greetings {
     display: block;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opaciti: 0;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
